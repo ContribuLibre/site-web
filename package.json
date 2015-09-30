@@ -4,6 +4,9 @@
   "description": "site de ContribuLibre",
   "main": "index.js",
   "scripts": {
+    "jade":"jade --watch --out prod src/index.jade",
+    "img2prod":"cp -r src/ prod/",
+    "watch":"npm run img2prod && npm run jade",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,5 +36,8 @@
   "license": "AGPLv3",
   "bugs": {
     "url": "https://github.com/ContribuLibre/site-web/issues"
+  },
+  "devDependencies": {
+    "jade-cli": "~0.1.1"
   }
 }
