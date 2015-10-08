@@ -4,9 +4,9 @@
   "description": "site de ContribuLibre",
   "main": "index.js",
   "scripts": {
-    "jade":"jade --watch --out prod src/index.jade",
-    "img2prod":"cp -r src/ prod/",
-    "watch":"npm run img2prod && npm run jade",
+    "jade": "jade --watch --out prod src/index.jade",
+    "img2prod": "cp -r src/ prod/",
+    "watch": "npm run img2prod && npm run jade",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -38,6 +38,7 @@
     "url": "https://github.com/ContribuLibre/site-web/issues"
   },
   "devDependencies": {
-    "jade-cli": "~0.1.1"
+    "jade-cli": "~0.1.1",
+    "jstransformer-stylus": "~1.0.0"
   }
 }
