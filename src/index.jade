@@ -6,21 +6,22 @@ html(lang="fr")
 		style
 			include:stylus css/main.styl
 	body
-		nav
-			a Accueil
-			a Rôles
-			a Libertés
-			a Fonctionnement
+		nav.menu#menuPrincipal
+			a(href="#accueil") Accueil
+			a(href="#roles") Rôles
+			a(href="#libertes") Libertés
+			a(href="#fonctionnement") Fonctionnement
 			a Adhérer
-			a Contact
+			a(href="#contact") Contact
 			//- a Projets
-		section
-			h1
-				img(src='image/logo-contribulibre.png', alt='logo Contribulibre')
-			h2 #[span Ensemble]#[span , ]
-				span libérons l'innovation
+		section#accueil
+			#splashScreen
+				h1
+					img(src='image/logo-contribulibre.png', alt='logo Contribulibre')
+				h2 #[span Ensemble]#[span , ]
+					span libérons l'innovation
 			aside
-				p Bien plus qu'une plateforme de <span title="crowdfunding">financement participatif</span>, nous vous apportons la liberté !
+				h3 Bien plus qu'une plateforme de <span title="crowdfunding">financement participatif</span>, nous vous apportons la liberté !
 				ul
 					li La liberté totale pour tous de faire ce que bon vous semble de tout ce qui produit par l'association.
 					li La liberté de participer à la réalisation des projets que nous adoptons.
@@ -31,7 +32,7 @@ html(lang="fr")
 
 				p Association pour la création, la promotion et le financement de projets à buts non lucratifs et libres de droits.
 
-		section
+		section#roles
 			h2 Notre rôle
 			ul
 				li
@@ -63,7 +64,7 @@ html(lang="fr")
 					a.button Participer à l'aventure
 					a.button Engagez-vous, r'engagez-vous, qu'on vous dit !
 
-		section
+		section#libertes
 			h2 Notre Conception de la liberté
 
 			ul
@@ -105,7 +106,7 @@ html(lang="fr")
 						// schéma élection représentants légaux
 
 
-		section
+		section#fonctionnement
 			h2 Notre fonctionnement
 			ul
 				li Vue d'ensemble
