@@ -6,7 +6,24 @@ html(lang="fr")
 		style
 			include:stylus css/main.styl
 	body
-		nav.menu#menuPrincipal
+		nav#menuPrincipal.show
+			a#menuSwitch(title="Menu")
+				svg#iconShowMenu(width="70",  height="70")
+					path(d="m 10,15 25,0 25,0 m -50,20 25,0 25,0 m -50,20 25,0 25,0",
+					style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;")
+						animate(attributeName="d",
+						from="m 10,15 25,0 25,0 m -50,20 25,0 25,0 m -50,20 25,0 25,0",
+						to="m 10,50 25,-30 25,30 m -50,0 25,-30 25,30 m -50,0 25,-30 25,30",
+						dur="1s", begin="click", fill="freeze")
+						animate(attributeType="CSS", attributeName="stroke-width", from="10" to="14", dur="1s", begin="click", fill="freeze")
+				svg#iconHideMenu(width="70",  height="70")
+					path(d="m 10,50 25,-30 25,30 m -50,0 25,-30 25,30 m -50,0 25,-30 25,30",
+					style="fill:none;stroke:#000000;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;")
+						animate(attributeName="d",
+						to="m 10,15 25,0 25,0 m -50,20 25,0 25,0 m -50,20 25,0 25,0",
+						from="m 10,50 25,-30 25,30 m -50,0 25,-30 25,30 m -50,0 25,-30 25,30",
+						dur="1s", begin="click", fill="freeze")
+						animate(attributeType="CSS", attributeName="stroke-width", to="10" from="14", dur="1s", begin="click", fill="freeze")
 			a(href="#accueil") Accueil
 			a(href="#roles") Rôles
 			a(href="#libertes") Libertés
@@ -23,7 +40,7 @@ html(lang="fr")
 			aside
 				h3 Bien plus qu'une plateforme de <span title="crowdfunding">financement participatif</span>, nous vous apportons la liberté !
 				ul
-					li La liberté totale pour tous de faire ce que bon vous semble de tout ce qui produit par l'association.
+					li La liberté totale, pour tous, de faire ce que bon vous semble de tout ce qui est produit par l'association.
 					li La liberté de participer à la réalisation des projets que nous adoptons.
 					li La liberté de prendre part à toutes les décisions de l'association.
 					li La liberté d'adhérer à l'association, gratuitement, dès maintenant !
@@ -32,8 +49,8 @@ html(lang="fr")
 
 				p Association pour la création, la promotion et le financement de projets à buts non lucratifs et libres de droits.
 
-		section#roles
-			h2 Notre rôle
+		section
+			h2#roles Notre rôle
 			ul
 				li
 					h3 #[span pour les] Porteurs de projets
@@ -43,29 +60,36 @@ html(lang="fr")
 					a.button Proposez un projet
 				li
 					h3 #[span pour les] Donnateurs
-					p Nous mettons à votre disposition des outils de financement ciblés pour donner un maximum de sens à vos dons,en vous permettant d'apporter là ou c'est le plus important à vos yeux, sur des projets qui profiterons à tous.
-					| Et en bonus vous pourrez le déduire de vos impôts.
+					p Nous mettons à votre disposition des outils de financement ciblés
+						//- pour vous permettre de donner, là ou cela à un maximum de sens pour vous
+						| pour donner un maximum de sens à vos dons,
+						| en vous permettant d'apporter là où c'est le plus important à vos yeux,
+						| sur des projets qui profiteront à tous.
+						| Et en bonus vous pourrez le déduire de vos impôts.
 					a.button Contribuez maintenant
 
 				li
 					h3 #[span pour les] Professionels
-					ul nous vous apportons un système de réservation :
+					p Nous vous apportons un système de réservation :
+					ul
 						li qui vous permet de choisir des missions réalisables tout de suite, sans lourdeurs administratives.
 						li au budget connu d'avance, versé à coup sûr, pour un travail bien fait, dans les temps.
-						li Où seul le résultat compte, pas le budget publicité.
+						li où seul le résultat compte, pas le budget publicité.
 					p Validée par la communauté, chaque mission a du sens, et contribue au bien commun.
 					a.button Découvrez votre mission
 				li
 					h3 #[span pour les] Bénévoles
-					ul nous valorisons vos contributions :
+					p Nous valorisons vos contributions :
+					ul
 						li en vous confiant toujours le pouvoir de décider collectivement ce qui sera fait dans l'association
 						li en accueillant avec bienveillance vos contributions spontanées,
-						li en vous créditant des budgets de vos accomplissements, pour les réattribuer librement parmi les missions disponibles
+						li en vous créditant des budgets pré-alloués à vos accomplissements,
+							| pour vous laisser les réattribuer librement parmi les missions disponibles.
 					a.button Participer à l'aventure
-					a.button Engagez-vous, r'engagez-vous, qu'on vous dit !
+					//a.button Engagez-vous, r'engagez-vous, qu'on vous dit !
 
-		section#libertes
-			h2 Notre Conception de la liberté
+		section
+			h2#libertes Notre Conception de la liberté
 
 			ul
 				li
@@ -85,7 +109,9 @@ html(lang="fr")
 
 						li
 							strong Liberté de savoir
-							p la liberté d'étudier le logiciel, y compris son code source (open-source) d'un oeil critique pour en vérifier la fiabilité, ou simplement par curiosité intellectuelle.
+							p la liberté d'étudier le logiciel, jusqu'aux moindres détails de son code source,
+								| d'un oeil critique pour en vérifier la fiabilité,
+								| ou simplement par curiosité intellectuelle.
 
 						li
 							strong Liberté de modification
@@ -95,19 +121,19 @@ html(lang="fr")
 					ul
 						li
 							strong La liberté de la communauté
-							p La communauté n'est plus captive, grâce à un logiciel interopérable et désentralisé.
+							p La communauté n'est plus captive, grâce à un logiciel <span title="compatible avec les autres">interopérable</span> et décentralisé.
 
 
 				li
 					h3 #[span pour la] Vie associative
 					ul
-						li Le choix d'une association dématérialisée : pas de contrainte géographique,ni horaire
+						li Le choix d'une association dématérialisée : pas de contrainte géographique, ni horaire
 						li Un vrai système démocratique sans intermédaire ; les adhérents ont un pouvoir décisonnel important.
 						// schéma élection représentants légaux
 
 
-		section#fonctionnement
-			h2 Notre fonctionnement
+		section
+			h2#fonctionnement Notre fonctionnement
 			ul
 				li Vue d'ensemble
 				li Vie d'un projet
