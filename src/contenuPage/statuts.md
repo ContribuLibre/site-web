@@ -5,14 +5,15 @@ Statuts
 ##1. Présentation de l'association
 La dénomination légale de l'association est ContribuLibre.
 ###1.1. Objet
-Création, promotion et financement de projets à buts non lucratifs et libres de droits (ou compatible GPL).
+Création, promotion et financement de projets à buts non lucratifs et libres de droits (ou sous licences libres).
 ###1.2. Siège social
 ContribuLibre, 26 ter, rue André Lapelleterie, 33130 BEGLES
 ##2. Adhésion
 Peut devenir membre de l'association toute personne physique ou morale.
 ###2.1. Admission
-Pour faire partie de l'association, il faut adhérer aux présents statuts, au règlement intérieur
-et remplir un bulletin d'adhésion en ligne.
+Pour faire partie de l'association, il faut :
+adhérer aux présents statuts, au règlement intérieur
+et remplir le bulletin d'adhésion en ligne.
 Aucune cotisation n'est nécessaire.
 Afin d'éviter les membres fictifs, certains justificatifs peuvent être demandés.
 ###2.2 Radiation
