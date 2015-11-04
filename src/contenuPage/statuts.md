@@ -52,7 +52,7 @@ Le tableau ci dessous liste :
 | :--- | ---: | ---: |
 | Modification des statuts | 1 mois | N*0.05+2*racine(N) |
 | Modification du règlement intérieur | 1 semaine | N*0.01+racine(N) |
-| Nomination des responsable légaux | 1 semaine | N*0.01+racine(N) |
+| Nomination des responsables légaux | 1 semaine | N*0.01+racine(N) |
 | Adoption d'un nouveau projet | 1 jour | 2*racine(N) |
 | Allocation de budget | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
 | Validation d'un livrable terminé | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
