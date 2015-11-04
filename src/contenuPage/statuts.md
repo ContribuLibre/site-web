@@ -28,46 +28,65 @@ La qualité de membre se perd par :
 
 ##3. Droit de vote
 Chaque membre a le droit de vote à l'exception suivante :
-les membres depuis moins d'un an peuvent exprimer leurs votes mais ils ne seront comptabilisés que s'ils ne dépassent pas 20% des votes exprimés, ou que l'unanimité des votants choisi de les comptabiliser.
+les membres depuis moins d'un an peuvent exprimer leurs votes mais ils ne seront comptabilisés que s'ils ne dépassent pas 20% des votes exprimés, ou que l'unanimité des votants choisit de les comptabiliser.
 
 En dessous de ce seuil de 20%, tous les votes sont pris en compte quel que soit l'ancienneté des votants.
 
 ##4. Prise de décision
 Toutes les décisions sont prises par consensus.
-Si aucun consensus n'émerge après une durée précisé plus bas, un vote de valeur à bulletin secret sera effectué pour trancher.
+Si aucun consensus n'émerge après une durée précisée plus bas, un vote de valeur à bulletin secret sera effectué pour trancher.
 
 (Pour la désignation des responsables légaux se référer à l'article responsables légaux.)
 
 Chaque décision est soumise à quorum.
-L'identité de chaqun des membres ayant pris part à une décision est conservée, sans association à leur vote.
-A la cloture d'un vote, seul le dénombrement de chaque choix est conservé.
-Ne son considéré comme ayant pris part à une décision que ceux qui y on participé et qui sont toujours membres à la cloture du processus de décision.
+L'identité de chacun des membres ayant pris part à une décision est conservée, sans association à leur vote.
+A la clôture d'un vote, seul le dénombrement de chaque choix est conservé.
+Ne sont considérés comme ayant pris part à une décision que ceux qui y ont participée et qui sont toujours membres à la clôture du processus de décision.
 
 Le tableau ci dessous liste :
 - les types de décisions,
 - les durées minimales réservées à l'émergence d'un consensus (durée reprise pour la durée minimale d'ouverture au vote en absence de consensus),
-- le nombre minimum (quorum) de membres exprimés pour valider un décision de ce type (ne peux être inferieur à 2, est toujours arrondi à l'inferieur, N représente le nombre d'adhérents à l'association au début du processus décisonnel, B le budget concerné)
+- le nombre minimum (quorum) de membres exprimés pour valider une décision de ce type (ne peut être inferieur à 2, est toujours arrondi à l'inferieur, N représente le nombre d'adhérents à l'association au début du processus décisonnel, B le budget concerné)
 
-| type de décision | durée | quorum |
+| Type de décision | Durée | Quorum |
 | :--- | ---: | ---: |
 | Modification des statuts | 1 mois | N*0.05+2*racine(N) |
 | Modification du règlement intérieur | 1 semaine | N*0.01+racine(N) |
+| Nomination des responsable légaux | 1 semaine | N*0.01+racine(N) |
 | Adoption d'un nouveau projet | 1 jour | 2*racine(N) |
 | Allocation de budget | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
-| Validation d'une tache terminée | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
+| Validation d'un livrable terminé | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
 | Radiation d'un membre | 1 semaine | 2*racine(N) |
 | Autre | RI* | RI* |
 
-* RI -> se référer au règlement interieur
+\* RI -> se référer au règlement interieur
 
 ###4.1.Indisponibilité des outils techniques
 En cas d’indisponibilité des outils techniques nécessaires aux prises de décision en ligne, tout membre peut proposer une liste de propositions à débattre et trancher (ordre du jour) en réunion exceptionnelle (Assemblée Générale Exceptionnelle).
 
 ##5. Responsables légaux
-Deux responsables légaux sont élus au consensus ou à défaut au bulletin secret.
-En cas de manque de candidat, les postes vacants seront tirés au sort parmi les membres, qui pourra refuser leur nomination entraînant un nouveau tirage au sort parmi les membres qui n'ont pas refusé. Si moins de deux (ben ça fait qu'un seul membre... xD) membres acceptent d'être responsables légaux, les responsables sortants restent en poste avec tout pouvoir pour gérer la dissolution de l'association sous 3 mois.
-Les responsables légaux ont un droit de veto sur toutes décisions, sauf sur le changement de responsable légal. Tant qu'ils sont en poste, ils ont accès au compte en banque et à l'administration du site.
-Ils peuvent annoncer leur démission à tout moment. Leur démission sera effective après élection de leur remplaçant(s).
+### 5.1 Nomination
+Deux responsables légaux sont nécessaires.
+Leur nomination se fait au consensus.
+En l'absence de consensus, un vote de valeur est organisé, non limité aux candidats qui se seraient fait connaître. Ce vote est effectué à bulletin secret.
+Les postes sont proposé aux membres, par ordre de score décroissant jusqu'a ce que les deux postes soient pourvu.
+En cas de score identique, l'ordre de proposition aux membres est effectué par tirage au sort jusqu'a épuisement.
+Si en fin de processus, les deux postes de responsables légaux ne sont pas pourvu, les responsables sortants restent en poste avec tout pouvoir pour gérer la dissolution de l'association sous 3 mois.
+
+#### 5.2 Remplacement
+Chaque responsable légal peut annoncer sa démission à tout moment. Sa démission sera effective après nomination du remplaçant selon le processus normal de nomination. (Les deux responsables légaux peuvent démissionner en même temps).
+
+Tout membre peut demander anonymement, un renouvellement des responsables légaux, ce qui déclanche le processus de nominations s'il n'est pas déjà en cours.
+
+### 5.3 Rôle
+Les responsables légaux engagent leur responsabilité légale quand aux agissements de l'association.
+
+**Ils sont dotés du droit de veto sur toutes décisions, sauf leur remplacement.**
+
+Ce pouvoir leur est confié pour leur éviter d'endosser la responsabilité de décisions collectives qu'ils ne sont pas prêt à assumer légalement.
+
+Tant qu'ils sont en poste, ils ont accès au compte en banque et à l'administration du site.
+
 
 ##6. Transparence
 Les décisions prises et en cours de votation sont :
@@ -117,9 +136,6 @@ Le quorum diffère selon si la prise de décision porte sur :
 
 ##Tranparence
 les exercices comptables et les bilans de la situation bancaire de l'association sont publiés régulièrement, tous les ---.
-
-##Responsables légaux
-Tout membre peut demander anonymement et une fois par mois maximum, un renouvellement des responsables légaux, ce qui entraîne une nouvelle élection de ces deux postes.
 
 ##Modification du Règlement intérieur
 Le présent règlement intérieur pourra être modifié à tout moment, sur demande d'un ou plusieurs membres.
