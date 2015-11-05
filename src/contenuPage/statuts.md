@@ -41,7 +41,7 @@ Si aucun consensus n'émerge après une durée précisée plus bas, à la moindr
 Chaque décision est soumise à quorum.
 L'identité de chacun des membres ayant pris part à une décision est conservée, sans association à leur vote.
 A la clôture d'un vote, seul le dénombrement de chaque choix est conservé.
-Ne sont considérés comme ayant pris part à une décision que ceux qui y ont participée et qui sont toujours membres à la clôture du processus de décision.
+Ne sont considérés comme ayant pris part à une décision que ceux qui y ont participé et qui sont toujours membres à la clôture du processus de décision.
 
 Le tableau ci dessous liste :
 - les types de décisions,
@@ -69,27 +69,28 @@ En cas d’indisponibilité des outils techniques nécessaires aux prises de dé
 - annonce du vote aux membres
 - ouverture du vote durant la durée prévu à cet effet
 - dépouillement des votes et vérification du quorum correspondant
-- publiation des résultats et diffusion de ceux-ci à tous les membres.
+- publication des résultats et diffusion de ceux-ci à tous les membres.
 
 ##5. Responsables légaux
 ### 5.1 Nomination
 Deux responsables légaux sont nécessaires.
 Leur nomination se fait au consensus.
-En l'absence de consensus, un vote de valeur est organisé, non limité aux candidats qui se seraient fait connaître. Ce vote est effectué à bulletin secret.
-Consensus et vote peuvent être validé sans durée minimum obligatoire dès lors que se sont exprimés `N0.05+2racine(N)` membres.
+En l'absence de consensus, un vote de valeur est organisé, non limité aux candidats qui se seraient fait connaître.
+Ce vote est effectué à bulletin secret.
+Consensus et vote peuvent être validés sans durée minimum obligatoire dès lors que se sont exprimés `N0.05+2racine(N)` membres.
 
-Les postes sont proposés aux membres, par ordre de score décroissant jusqu'a ce que les deux postes soient pourvu.
+Les postes sont proposés aux membres, par ordre de score décroissant jusqu'a ce que les deux postes soient pourvus.
 En cas de score identique, l'ordre de proposition aux membres est effectué par tirage au sort jusqu'a épuisement.
-Si en fin de processus, les deux postes de responsables légaux ne sont pas pourvu, les responsables sortants restent en poste avec tout pouvoir pour gérer la dissolution de l'association sous 3 mois.
+Si en fin de processus, les deux postes de responsables légaux ne sont pas pourvus, les responsables sortants restent en poste avec tout pouvoir pour gérer la dissolution de l'association sous 3 mois.
 
 #### 5.2 Remplacement
 Chaque responsable légal peut annoncer sa démission à tout moment. Sa démission sera effective après nomination du remplaçant selon le processus normal de nomination. (Les deux responsables légaux peuvent démissionner en même temps).
 
 Tout membre peut demander anonymement, une fois par mois maximum, un renouvellement des responsables légaux.
-Cela déclanche le processus de nomination s'il n'est pas déjà en cours.
+Cela déclenche le processus de nomination s'il n'est pas déjà en cours.
 
 ### 5.3 Rôle
-Les responsables légaux engagent leur responsabilité légale quand aux agissements de l'association.
+Les responsables légaux engagent leur responsabilité légale quant aux agissements de l'association.
 
 **Ils sont dotés du droit de veto sur toutes décisions, sauf leur remplacement.**
 
@@ -102,7 +103,7 @@ Tant qu'ils sont en poste, ils ont accès au compte en banque et à l'administra
 Les décisions prises et en cours de votation sont :
 - publiées sur le site
 - portées à la connaissance des membres
-- accessibles à tout moment, accompagné des discussions et de l'état des votes, détaché de l'identité des votants.
+- accessibles à tout moment, accompagnées des discussions et de l'état des votes, détachés de l'identité des votants.
 
 La transparence de la comptabilité se traduit par :
 
@@ -114,15 +115,15 @@ Les ressources de l'association proviennent de :
 - dons (financement participatif et autres)
 - mécénats privés
 - subventions publiques
-- toutes autres ressources autorisées par la loi
+- toutes autres ressources autorisées par la loi.
 
 Chaque ressource peut être attribué :
 - à l'association globalement
 - à un projet porté par l'association
-- à une sous partie d'un projet (y compris un livrable individuel).
+- à une sous-partie d'un projet (y compris un livrable individuel).
 
-L'association peut disposer de ressources non monétaire.
-Les contribution en nature :
+L'association peut disposer de ressources non monétaires.
+Les contributions en nature :
 - travail réalisé
-- mise à disposition de matériel.
-- toutes autres ressources autorisées par la loi
+- mise à disposition de matériel
+- toutes autres ressources autorisées par la loi.
