@@ -12,7 +12,7 @@ exemples : programme informatique non connecté, plans (impression 3D, maison, v
 ### Projet dématerialisé, avec interactions multi-utilisateurs.
 exemples : programme informatique connecté (réseaux sociaux, progiciel en ligne (saas), jeux multi-joueurs...)...
 
-critères précédents + architecture décentralisé ou distribué pour garantir la liberté de la communauté en plus de la liberté du contenu du projet/code source.
+critères précédents + architecture décentralisée ou distribuée pour garantir la liberté de la communauté en plus de la liberté du contenu du projet/code source.
 
 ### Projet avec ancrage physique,
 exemples : évènement, création d'éco-village, de tiers-lieux...
