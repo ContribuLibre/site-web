@@ -12,39 +12,23 @@ exemples : programme informatique non connecté, plans (impression 3D, maison, v
 ### Projet dématerialisé, avec interaction multi-utilisateurs.
 exemples : programme informatique connecté (réseau sociaux, progiciel en ligne (saas), jeux multi-joueurs...)...
 
-critère précédent + architecture décentralisé ou distribué pour garantir la liberté de la communauté en plus de la liberté du contenu du projet/code source.
+critères précédents + architecture décentralisé ou distribué pour garantir la liberté de la communauté en plus de la liberté du contenu du projet/code source.
 
 ### Projet avec encrage physique,
 exemples : évènement, création d'éco-village, de tier-lieux...
 
-accès libre au site, tout ce qui peux être dématerialisé pour être rendu libre doit l'être
+Les projets de ce type ne permettent pas d'être librement à la disposition de tous, pour tout usage. Ils ne devraient donc pas rentrer dans le cadre de ContribuLibre. Ceci dit, leur réalisation implique de nombreuses activité qui elles rentre dans le cadre de ContribuLibre, il est donc envisageable, par facilité de communication, d'adopter des projets de ce type plutôt que de n'adopter que les sous projets correspondant strictement au cadre de ContribuLibre. Aux adhérents de l'association d'estimer si le projet justifie de faire une exeption ou non. S'il sert les même valeurs que ContribuLibre, si communiquer autour du projet et de ContribuLibre ne risque pas de rendre nébuleu le rôle de ContribuLibre. Bref, s'il faut déroger ou non à certaines des règles qui définissent le cadre des projets adopté par ContribuLibre.
 
-
-##Radiation d'un membre
-Période d'inactivité totale :
-La qualité de membre de l’association sera perdue automatiquement après une période d'inactivité totale de 5 années consécutives.
-
-##Prise de décision
-Si aucun consensus ne ressort après une durée de ---, un vote de valeur à bulletin secret est organisé.
-
-Le quorum diffère selon si la prise de décision porte sur :
-
-- La modification des statuts :
-- L'édiction et la modification du règlement intérieur :
-- L'allocation des budgets de fonctionnement :
-- La radiation d'un membre :
-- L'attribution des rôles :
-
-##Tranparence
-les exercices comptables et les bilans de la situation bancaire de l'association sont publiés régulièrement, tous les ---.
-
-##Modification du Règlement intérieur
-Le présent règlement intérieur pourra être modifié à tout moment, sur demande d'un ou plusieurs membres.
-Les modifications devront être soumises au vote des membres.
-(à voir... cela découle de ma propre initiative ;-)
+Pour les projets de ce type, seraient attendu :
+- un accès libre et gratuit au site,
+- traiter comme des projets dématerialisés les documents de communications, les outils de gestions, les plans, et tout autre élément dématerialisable dans le projet.
 
 
 
 
-«Fait à….., le….20.. »
-Signés de deux représentants (nom, prénom et fonction) au minimum, nécessaires pour la formalité de déclaration de l’association.
+## Tableau des durées
+| Objet | Durée |
+|:--- | ---:|
+| Radiation automatique d'un adhérent pour inactivité totale (réadhésion possible au moindre signe d'activité) | 5 ans |
+| Publication des exercices comptables et bilan de la situation bancaire de l'association | 1 mois |
+
