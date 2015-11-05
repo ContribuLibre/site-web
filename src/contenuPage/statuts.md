@@ -34,7 +34,7 @@ En dessous de ce seuil de 20%, tous les votes sont pris en compte quel que soit 
 
 ##4. Prise de décision
 Toutes les décisions sont prises par consensus.
-Si aucun consensus n'émerge après une durée précisée plus bas, un vote de valeur à bulletin secret sera effectué pour trancher.
+Si aucun consensus n'émerge après une durée précisée plus bas, à la moindre demande, un vote de valeur à bulletin secret sera effectué pour trancher et valider la décision.
 
 (Pour la désignation des responsables légaux se référer à l'article responsables légaux.)
 
@@ -52,7 +52,6 @@ Le tableau ci dessous liste :
 | :--- | ---: | ---: |
 | Modification des statuts | 1 mois | N*0.05+2*racine(N) |
 | Modification du règlement intérieur | 1 semaine | N*0.01+racine(N) |
-| Nomination des responsables légaux | 1 semaine | N*0.01+racine(N) |
 | Adoption d'un nouveau projet | 1 jour | 2*racine(N) |
 | Allocation de budget | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
 | Validation d'un livrable terminé | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
@@ -69,14 +68,17 @@ En cas d’indisponibilité des outils techniques nécessaires aux prises de dé
 Deux responsables légaux sont nécessaires.
 Leur nomination se fait au consensus.
 En l'absence de consensus, un vote de valeur est organisé, non limité aux candidats qui se seraient fait connaître. Ce vote est effectué à bulletin secret.
-Les postes sont proposé aux membres, par ordre de score décroissant jusqu'a ce que les deux postes soient pourvu.
+Consensus et vote peuvent être validé sans durée minimum obligatoire dès lors que se sont exprimés `N0.05+2racine(N)` membres.
+
+Les postes sont proposés aux membres, par ordre de score décroissant jusqu'a ce que les deux postes soient pourvu.
 En cas de score identique, l'ordre de proposition aux membres est effectué par tirage au sort jusqu'a épuisement.
 Si en fin de processus, les deux postes de responsables légaux ne sont pas pourvu, les responsables sortants restent en poste avec tout pouvoir pour gérer la dissolution de l'association sous 3 mois.
 
 #### 5.2 Remplacement
 Chaque responsable légal peut annoncer sa démission à tout moment. Sa démission sera effective après nomination du remplaçant selon le processus normal de nomination. (Les deux responsables légaux peuvent démissionner en même temps).
 
-Tout membre peut demander anonymement, un renouvellement des responsables légaux, ce qui déclanche le processus de nominations s'il n'est pas déjà en cours.
+Tout membre peut demander anonymement, une fois par mois maximum, un renouvellement des responsables légaux.
+Cela déclanche le processus de nomination s'il n'est pas déjà en cours.
 
 ### 5.3 Rôle
 Les responsables légaux engagent leur responsabilité légale quand aux agissements de l'association.
@@ -90,8 +92,9 @@ Tant qu'ils sont en poste, ils ont accès au compte en banque et à l'administra
 
 ##6. Transparence
 Les décisions prises et en cours de votation sont :
-- publiées
-- et accessibles à tout moment, et ce, dans le respect du secret des votes.
+- publiées sur le site
+- portées à la connaissance des membres
+- accessibles à tout moment, accompagné des discussions et de l'état des votes, détaché de l'identité des votants.
 
 La transparence de la comptabilité se traduit par :
 
@@ -108,12 +111,13 @@ Les ressources de l'association proviennent de :
 Chaque ressource peut être attribué :
 - à l'association globalement
 - à un projet porté par l'association
-- à une sous partie d'un projet (y compris une tâche individuelle).
+- à une sous partie d'un projet (y compris un livrable individuel).
 
 L'association peut disposer de ressources non monétaire.
 Les contribution en nature :
 - travail réalisé
 - mise à disposition de matériel.
+- toutes autres ressources autorisées par la loi
 
 
 Règlement intérieur
