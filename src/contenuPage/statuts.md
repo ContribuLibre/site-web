@@ -60,8 +60,16 @@ Le tableau ci dessous liste :
 
 \* RI -> se référer au règlement interieur
 
-###4.1.Indisponibilité des outils techniques
-En cas d’indisponibilité des outils techniques nécessaires aux prises de décision en ligne, tout membre peut proposer une liste de propositions à débattre et trancher (ordre du jour) en réunion exceptionnelle (Assemblée Générale Exceptionnelle).
+### 4.1 Indisponibilité des outils techniques
+En cas d’indisponibilité des outils techniques nécessaires aux prises de décision en ligne, tout membre peut prendre l'initiative de gérer manuellement le processus décisionnel habituellement automatisé :
+- annonce à tous les membres de la décision à débattre (par tout moyen écrit pour les joindre)
+- facilitation de l'émergence éventuelle d'un consensus durant le délais prévu à cet effet
+- en cas de consensus, vérification du quorum de participant
+- sinon organisation du vote de valeur (présentiel ou non)
+- annonce du vote aux membres
+- ouverture du vote durant la durée prévu à cet effet
+- dépouillement des votes et vérification du quorum correspondant
+- publiation des résultats et diffusion de ceux-ci à tous les membres.
 
 ##5. Responsables légaux
 ### 5.1 Nomination
@@ -118,36 +126,3 @@ Les contribution en nature :
 - travail réalisé
 - mise à disposition de matériel.
 - toutes autres ressources autorisées par la loi
-
-
-Règlement intérieur
-===================
-
-##Radiation d'un membre
-Période d'inactivité totale :
-La qualité de membre de l’association sera perdue automatiquement après une période d'inactivité totale de 5 années consécutives.
-
-##Prise de décision
-Si aucun consensus ne ressort après une durée de ---, un vote de valeur à bulletin secret est organisé.
-
-Le quorum diffère selon si la prise de décision porte sur :
-
-- La modification des statuts :
-- L'édiction et la modification du règlement intérieur :
-- L'allocation des budgets de fonctionnement :
-- La radiation d'un membre :
-- L'attribution des rôles :
-
-##Tranparence
-les exercices comptables et les bilans de la situation bancaire de l'association sont publiés régulièrement, tous les ---.
-
-##Modification du Règlement intérieur
-Le présent règlement intérieur pourra être modifié à tout moment, sur demande d'un ou plusieurs membres.
-Les modifications devront être soumises au vote des membres.
-(à voir... cela découle de ma propre initiative ;-)
-
-
-
-
-«Fait à….., le….20.. »
-Signés de deux représentants (nom, prénom et fonction) au minimum, nécessaires pour la formalité de déclaration de l’association.
