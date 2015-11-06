@@ -155,20 +155,21 @@ aside
 	box-shadow 0 0 50px 0 colorShadow
 
 h2
-	line-height hauteurTitre
 	color colorFg1
-	text-align center
-	margin-bottom 5vh
-	margin-top - hauteurTitre - hauteurMenu
-	padding-top hauteurMenu
-	position absolute
-	width 100%
 section
 	background white
 	position relative
 	min-height "calc(100vh - %s)" % (hauteurTitre + hauteurMenu)
 	z-index 2
 	padding-top hauteurTitre
+	> h2
+		line-height hauteurTitre
+		text-align center
+		margin-bottom 5vh
+		margin-top - hauteurTitre - hauteurMenu
+		padding-top hauteurMenu
+		position absolute
+		width 100%
 	> ul
 		display flex
 		flex-wrap wrap

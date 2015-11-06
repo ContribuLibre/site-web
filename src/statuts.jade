@@ -1,0 +1,9 @@
+include fragments/head
+
+doctype html
+html(lang="fr")
+	+head('Statuts légaux')
+	body
+		include fragments/menu-accueil
+		include:markdown-it contenuPage/statuts.md
+		include fragments/footer

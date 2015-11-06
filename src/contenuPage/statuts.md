@@ -1,23 +1,24 @@
 
-Statuts
+Statuts légaux de ContribuLibre
 =======
+Association loi 1901
 
-##1. Présentation de l'association
+## 1. Présentation de l'association
 La dénomination légale de l'association est ContribuLibre.
-###1.1. Objet
+### 1.1. Objet
 Création, promotion et financement de projets à buts non lucratifs et libres de droits (ou sous licences libres).
-###1.2. Siège social
+### 1.2. Siège social
 ContribuLibre, 26 ter, rue André Lapelleterie, 33130 BEGLES
-##2. Adhésion
+## 2. Adhésion
 Peut devenir membre de l'association toute personne physique ou morale.
-###2.1. Admission
+### 2.1. Admission
 Pour faire partie de l'association, il faut
 adhérer aux présents statuts, au règlement intérieur
 et remplir le bulletin d'adhésion en ligne.
 Aucune cotisation n'est nécessaire.
 
 Afin d'éviter les membres fictifs, certains justificatifs peuvent être demandés.
-###2.2 Radiation
+### 2.2 Radiation
 La qualité de membre se perd par :
 
 - La démission
@@ -26,13 +27,13 @@ La qualité de membre se perd par :
 - Une inactivité totale pendant une durée définie dans le règlement intérieur.
 - Incapacité à prouver son identité.
 
-##3. Droit de vote
+## 3. Droit de vote
 Chaque membre a le droit de vote à l'exception suivante :
 les membres depuis moins d'un an peuvent exprimer leurs votes mais ils ne seront comptabilisés que s'ils ne dépassent pas 20% des votes exprimés, ou que l'unanimité des votants choisit de les comptabiliser.
 
 En dessous de ce seuil de 20%, tous les votes sont pris en compte quel que soit l'ancienneté des votants.
 
-##4. Prise de décision
+## 4. Prise de décision
 Toutes les décisions sont prises par consensus.
 Si aucun consensus n'émerge après une durée précisée plus bas, à la moindre demande, un vote de valeur à bulletin secret sera effectué pour trancher et valider la décision.
 
@@ -56,9 +57,8 @@ Le tableau ci dessous liste :
 | Allocation de budget | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
 | Validation d'un livrable terminé | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
 | Radiation d'un membre | 1 semaine | 2*racine(N) |
-| Autre | RI* | RI* |
 
-\* RI -> se référer au règlement interieur
+Pour tout autre type de décision, se référer au règlement intérieur.
 
 ### 4.1 Indisponibilité des outils techniques
 En cas d’indisponibilité des outils techniques nécessaires aux prises de décision en ligne, tout membre peut prendre l'initiative de gérer manuellement le processus décisionnel habituellement automatisé :
@@ -71,7 +71,7 @@ En cas d’indisponibilité des outils techniques nécessaires aux prises de dé
 - dépouillement des votes et vérification du quorum correspondant
 - publication des résultats et diffusion de ceux-ci à tous les membres.
 
-##5. Responsables légaux
+## 5. Responsables légaux
 ### 5.1 Nomination
 Deux responsables légaux sont nécessaires.
 Leur nomination se fait au consensus.
@@ -99,7 +99,7 @@ Ce pouvoir leur est confié pour leur éviter d'endosser la responsabilité de d
 Tant qu'ils sont en poste, ils ont accès au compte en banque et à l'administration du site.
 
 
-##6. Transparence
+## 6. Transparence
 Les décisions prises et en cours de votation sont :
 - publiées sur le site
 - portées à la connaissance des membres
@@ -110,7 +110,7 @@ La transparence de la comptabilité se traduit par :
 - l'accessibilité d'une comptabilité analytique en temps réel (mise à jour automatiquement)
 - la publication régulière (période définie dans le règlement intérieur) d'exercices comptables et de bilans de la situation bancaire de l'association.
 
-##7. Ressources
+## 7. Ressources
 Les ressources de l'association proviennent de :
 - dons (financement participatif et autres)
 - mécénats privés

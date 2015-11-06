@@ -1,0 +1,9 @@
+include fragments/head
+
+doctype html
+html(lang="fr")
+	+head('Règlement intérieur')
+	body
+		include fragments/menu-accueil
+		include:markdown-it contenuPage/reglement-interieur.md
+		include fragments/footer
