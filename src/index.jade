@@ -1,36 +1,10 @@
+include fragments/head
+
 doctype html
 html(lang="fr")
-	head
-		meta(charset="UTF-8")
-		title ContribuLibre
-		style
-			include:stylus css/main.styl
+	+head('Accueil')
 	body
-		nav#menuPrincipal.show
-			a#menuSwitch(title="Menu")
-				svg#iconShowMenu(width="70",  height="70")
-					path(d="m 10,15 25,0 25,0 m -50,20 25,0 25,0 m -50,20 25,0 25,0",
-					style="fill:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;")
-						animate(attributeName="d",
-						from="m 10,15 25,0 25,0 m -50,20 25,0 25,0 m -50,20 25,0 25,0",
-						to="m 10,50 25,-30 25,30 m -50,0 25,-30 25,30 m -50,0 25,-30 25,30",
-						dur="1s", begin="click", fill="freeze")
-						animate(attributeType="CSS", attributeName="stroke-width", from="10" to="14", dur="1s", begin="click", fill="freeze")
-				svg#iconHideMenu(width="70",  height="70")
-					path(d="m 10,50 25,-30 25,30 m -50,0 25,-30 25,30 m -50,0 25,-30 25,30",
-					style="fill:none;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;")
-						animate(attributeName="d",
-						to="m 10,15 25,0 25,0 m -50,20 25,0 25,0 m -50,20 25,0 25,0",
-						from="m 10,50 25,-30 25,30 m -50,0 25,-30 25,30 m -50,0 25,-30 25,30",
-						dur="1s", begin="click", fill="freeze")
-						animate(attributeType="CSS", attributeName="stroke-width", to="10" from="14", dur="1s", begin="click", fill="freeze")
-			a(href="#accueil") Accueil
-			a(href="#roles") Rôles
-			a(href="#libertes") Libertés
-			a(href="#fonctionnement") Fonctionnement
-			a Adhérer
-			a(href="#contact") Contact
-			//- a Projets
+		include fragments/menu-accueil
 		section#accueil
 			#splashScreen
 				h1
@@ -141,32 +115,6 @@ html(lang="fr")
 				li Vie d'une tâche
 				li Prise de décision
 
-	footer
-		nav
-			a Mentions légales
-			a Statuts de l'association
-			a Réglement intérieur
-			a Espace presse
-			a FAQ
-			a Plan du site
+	include fragments/footer
 
-		#partenaire
-			.col Certifications
-				a HTML 5
-				a CSS 3
-
-		#contact
-			h3 Contact
-			a Facebook
-			a Twitter
-			a Github
-			a Diaspora*
-			a Flux RSS
-			form
-				label Rester informé
-				input(placeholder="Saisissez votre email")
-				input(type="submit")
-			a.button Adhérer
-
-			a contact@contribulibre.fr
 
