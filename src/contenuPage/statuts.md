@@ -51,12 +51,12 @@ Le tableau ci dessous liste :
 
 | Type de décision | Durée | Quorum |
 | :--- | ---: | ---: |
-| Modification des statuts | 1 mois | N*0.05+2*racine(N) |
-| Modification du règlement intérieur | 1 semaine | N*0.01+racine(N) |
-| Adoption d'un nouveau projet | 1 jour | 2*racine(N) |
-| Allocation de budget | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
-| Validation d'un livrable terminé | 2*log2(2+B/50)-2 jours | 2*(B^0.4)-2 |
-| Radiation d'un membre | 1 semaine | 2*racine(N) |
+| Modification des statuts | 1 mois | N * 0.05 + 2 * racine(N) |
+| Modification du règlement intérieur | 1 semaine | N * 0.01 + racine(N) |
+| Adoption d'un nouveau projet | 1 jour | 2 * racine(N) |
+| Allocation de budget | 2 * log2( 2 + B / 50 ) - 2 jours | 2 * ( B^0.4 ) - 2 |
+| Validation d'un livrable terminé | 2 * log2( 2 + B / 50 ) - 2 jours | 2 * ( B^0.4 ) - 2 |
+| Radiation d'un membre | 1 semaine | 2 * racine(N) |
 
 Pour tout autre type de décision, se référer au règlement intérieur.
 

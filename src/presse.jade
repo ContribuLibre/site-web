@@ -1,0 +1,9 @@
+include fragments/head
+
+doctype html
+html(lang="fr")
+	+head('Espace presse')
+	body
+		include fragments/menu-accueil
+		include:markdown-it contenuPage/presse.md
+		include fragments/footer

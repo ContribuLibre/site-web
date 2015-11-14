@@ -1,21 +1,34 @@
+menuPrincipal = document.getElementById('menuPrincipal')
 menuSwitch = (anim=true) ->
-	menuPrincipal = document.getElementById('menuPrincipal')
 	if(menuPrincipal.getAttribute('class') == 'show')
-		menuPrincipal.setAttribute('class', 'hide')
-		if anim
-			animNode.beginElement() for animNode in document.querySelectorAll('#menuSwitch animate')
+		menuHide(anim)
 	else
 		menuShow(anim)
 menuShow = (anim=true) ->
 	menuPrincipal.setAttribute('class', 'show')
 	if anim
 		animNode.beginElement() for animNode in document.querySelectorAll('#menuSwitch animate')
+menuHide = (anim=true) ->
+	menuPrincipal.setAttribute('class', 'hide')
+	if anim
+		animNode.beginElement() for animNode in document.querySelectorAll('#menuSwitch animate')
 
-menuSwitch(false)
+menuHide(false)
 document.getElementById('menuSwitch').setAttribute("href", 'javascript:void(menuSwitch());');
 menuNeverShowned = true
 window.addEventListener 'scroll',(event)->
-	if document.body.scrollTop > window.innerHeight - 50 && menuPrincipal.getAttribute('class') == 'hide' && menuNeverShowned
+	scrollActuel = window.pageYOffset || document.body.scrollTop || document.html.scrollTop
+	hauteurAffichage = window.innerHeight - 120
+	isMenuHidded = menuPrincipal.getAttribute('class') == 'hide'
+	if scrollActuel > hauteurAffichage && isMenuHidded && menuNeverShowned
 		menuShow()
 		menuNeverShowned = false
-	event.preventDefault();
+###
+	marge = 200
+	if scrollActuel > marge && scrollActuel < hauteurAffichage - marge
+		window.scrollTo(0, hauteurAffichage);
+	if scrollActuel > hauteurAffichage + marge && scrollActuel < 2 * hauteurAffichage - marge
+		window.scrollTo(0, 2*hauteurAffichage);
+	if scrollActuel > 2*hauteurAffichage + marge && scrollActuel < 3 * hauteurAffichage - marge
+		window.scrollTo(0, 3*hauteurAffichage);
+###
