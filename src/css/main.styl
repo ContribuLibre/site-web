@@ -58,20 +58,26 @@ NbColonnesAEviter=((nombreColonnes/2)+1)
 	width 100%
 	z-index 500
 	a
-		background colorBgAux
+		//background colorBgAux
+		background alpha(orangeLogo, 0.3)
 		text-decoration none
-		color colorFgAux
+		//color colorFgAux
+		color colorDarkText
+		font-weight bold
 		display block
 		flex 1
 		text-align center
 		position relative
 		transition top 1s;
+		border-bottom 0
 	svg
 		display block
+		position relative
+		top 0
 	#menuSwitch
 		flex 0 hauteurMenu
-		background-color blue
-
+		path
+			stroke colorDarkText
 #menuPrincipal.show
 	#iconShowMenu
 		display none
@@ -85,18 +91,22 @@ NbColonnesAEviter=((nombreColonnes/2)+1)
 		display none
 	a
 		top - hauteurMenu
-	#menuSwitch
-		top 0
+//	#menuSwitch
+//		top 0
+	svg
+		position relative
+		top hauteurMenu
 
 #accueil
 	background linear-gradient(#dff, #ffd)
 	min-height "calc(100vh - %s)" % hauteurTitre
-	position relative
+	padding-top 0
 
 #splashScreen
 	display flex
 	width 66%
-	height 100%
+	height "calc(100vh - %s)" % hauteurTitre
+	padding-top hauteurMenu
 	text-align center
 	flex-direction column
 	justify-content center
