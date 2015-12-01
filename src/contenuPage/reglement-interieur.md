@@ -12,9 +12,9 @@ Exemples : programme informatique non connecté, plan (impression 3D, maison, v�
 ```
 ## indispensable
 
-- open source
-- au service des utilisateurs, pas des concepteurs
-- code métier testé
+- Open source
+- Au service des utilisateurs, pas des concepteurs
+- Code métier testé
 
 ## souhaitable
 
@@ -23,8 +23,8 @@ Exemples : programme informatique non connecté, plan (impression 3D, maison, v�
 - Utile au plus grand nombre
 
 ## proscrit
-- tout modèles économique de rente (service saas, vente du logiciel...) (seul la vente de main d’œuvre est acceptable)
-- nécessiter l'utilisation d'outils propriétaire pour utiliser ou contribuer au projet.
+- Tout modèle économique de rente (service saas, vente du logiciel...) (seule la vente de main d’œuvre est acceptable)
+- Nécessiter obligatoirement l'utilisation d'outils propriétaires pour utiliser ou contribuer au projet.
 ```
 
 
