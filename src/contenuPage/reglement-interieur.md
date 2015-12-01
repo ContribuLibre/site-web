@@ -35,8 +35,8 @@ exemples : programme informatique connecté (réseaux sociaux, progiciel en lign
 <br/>
 <br/>Critères précédents + architecture décentralisée ou distribuée pour garantir la liberté de la communauté en plus de la liberté du contenu du projet/code source.
 
-### Projet avec ancrage physique,
-exemples : évènement, création d'éco-village, de tiers-lieux...
+### Projet avec ancrage physique
+exemples : événement, création d'éco-village, de tiers-lieux...
 
 Les projets de ce type ne permettent pas d'être librement à la disposition de tous, pour tout usage. 
 <br/>Ils ne devraient donc pas rentrer dans le cadre de ContribuLibre. <br/>Ceci dit, leur réalisation implique de nombreuses activités qui elles, y rentrent. Il est donc envisageable, par facilité de communication, d'adopter des projets de ce type. 
