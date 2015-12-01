@@ -1,12 +1,12 @@
-Règlement intérieur
+Réglement intérieur
 ===================
 
 ## Critères d'acceptation d'un projet
 Ces critères sont un guide pour aider l'assemblée des membres à décider d'adopter ou non un projet.
 
 ### Projet dématérialisé
-- #### Sans interactions entre utilisateurs.
-exemples : programme informatique non connecté, plans (impression 3D, maison, véhicule, circuits électronique), textes, oeuvre artistique numérique...
+#### Sans interactions entre utilisateurs
+Exemples : programme informatique non connecté, plan (impression 3D, maison, véhicule, circuit électronique), texte, oeuvre artistique numérique...
 <br/>
 <br/>Cf wiki ContribuLibre
 ```
@@ -30,13 +30,13 @@ exemples : programme informatique non connecté, plans (impression 3D, maison, v
 
 
 
-- #### Avec interactions multi-utilisateurs.
-exemples : programme informatique connecté (réseaux sociaux, progiciel en ligne (saas), jeux multi-joueurs...)...
+#### Avec interactions multi-utilisateurs
+Exemples : programme informatique connecté (réseau social, progiciel en ligne (saas), jeu multi-joueurs...)...
 <br/>
 <br/>Critères précédents + architecture décentralisée ou distribuée pour garantir la liberté de la communauté en plus de la liberté du contenu du projet/code source.
 
 ### Projet avec ancrage physique
-exemples : événement, création d'éco-village, de tiers-lieux...
+Exemples : événement, création d'éco-village, de tiers-lieux...
 
 Les projets de ce type ne permettent pas d'être librement à la disposition de tous, pour tout usage. 
 <br/>Ils ne devraient donc pas rentrer dans le cadre de ContribuLibre. <br/>Ceci dit, leur réalisation implique de nombreuses activités qui elles, y rentrent. Il est donc envisageable, par facilité de communication, d'adopter des projets de ce type. 
@@ -78,15 +78,17 @@ Pour les projets de ce type, seraient attendu :
 | Publication des exercices comptables et bilan de la situation bancaire de l'association | 1 mois |
 | Période de carence durant laquelle un professionnel ne peut pas réserver de nouveau le même livrable | r/ratio+ r*fail/ratio |
 | Période de carence durant laquelle un professionnel ne peut réserver aucun livrable | RF/ratio^(0.5+log10(nbrRes))/4 |
-r = durée de reservation du livrable
-fail = nombre d'échec sur ce livrable
-ratio = min(1,nombre de livrables réussis/nombre de livrables réservés)
-RF = durée moyenne des réservations échouées
-nbrRes = nombre de réservations totales effectuées
+- r = durée de reservation du livrable
+- fail = nombre d'échec sur ce livrable
+- ratio = min(1,nombre de livrables réussis/nombre de livrables réservés)
+- RF = durée moyenne des réservations échouées
+- nbrRes = nombre de réservations totales effectuées
 
 <a id="dataTable"/>
 ### Tableau des données
+| Objet | Donnée |
+|:--- | ---:|
 | Nombre maximum de livrables pouvant être réservés simultanément par un professionnel | win * ratio^4 |
-résultat arrondi à l'inférieur, ne peut pas être inferieur à 1.
-win = nombre de livrables réalisés avec succès
-ratio = cf tableau des durées
+- résultat arrondi à l'inférieur, ne peut pas être inferieur à 1.
+- win = nombre de livrables réalisés avec succès
+- ratio = cf tableau des durées
